@@ -1,5 +1,6 @@
 import Hello from "./Hello";
 import Counter from "./Counter";
+import TextInput from "./TextInput";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hello name="React Hero" />
       <Hello name="React Learner" />
       <Counter />
+      <TextInput />
     </div>
   );
 }
